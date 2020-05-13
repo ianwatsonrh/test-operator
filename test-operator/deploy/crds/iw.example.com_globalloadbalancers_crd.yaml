@@ -30,9 +30,19 @@ spec:
           type: object
         spec:
           description: GlobalLoadBalancerSpec defines the desired state of GlobalLoadBalancer
+          properties:
+            name:
+              type: string
+          required:
+          - name
           type: object
         status:
           description: GlobalLoadBalancerStatus defines the observed state of GlobalLoadBalancer
+          properties:
+            status:
+              type: string
+          required:
+          - status
           type: object
       type: object
   version: v1alpha1
