@@ -1,0 +1,7 @@
+apiVersion: iw.example.com/v1alpha1
+kind: GlobalLoadBalancer
+metadata:
+  name: example-globalloadbalancer
+spec:
+  # Add fields here
+  size: 3
